@@ -1,0 +1,101 @@
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .villa {
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header nav .bars {
+  text-decoration: none;
+  font-size: 30px;
+}
+header nav .bars a {
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(../img/hero_1.jpg);
+}
+.container main .container_two .welcome_to_willa_resort {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container main .container_two .welcome_to_willa_resort .welcome {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.container main .container_two .welcome_to_willa_resort .welcome h1 {
+  font-size: 60px;
+}
+.container main .container_two .welcome_to_willa_resort .welcome h2 {
+  font-size: 40px;
+}
+.container main .container_two .welcome_to_willa_resort .welcome .buttons {
+  margin-top: 50px;
+}
+.container main .container_two .welcome_to_willa_resort .welcome .buttons .explore {
+  color: white;
+  background-color: rgb(214, 38, 214);
+  border: 0px;
+  border-radius: 20px;
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+.container main .container_two .welcome_to_willa_resort .welcome .buttons .download {
+  cursor: pointer;
+  color: white;
+  border: 0px;
+  border-radius: 20px;
+  height: 40px;
+  padding: 10px;
+  background-color: gray;
+}
+
+.a_gorgeus_place {
+  height: 500px;
+  text-align: center;
+  padding: 105px;
+}
+.a_gorgeus_place .you_can_visit .cards {
+  display: flex;
+}
+.a_gorgeus_place .you_can_visit .cards .food {
+  width: 150px;
+}
+.a_gorgeus_place .a_gorge_and_img {
+  padding-bottom: 100px;
+}
+.a_gorgeus_place h1 {
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.a_gorgeus_place h4 {
+  font-size: 30px;
+  color: silver;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+  .container .container_two .welcome_to_willa_resort .welcome .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .container_two .welcome_to_willa_resort .welcome .buttons .download {
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */
